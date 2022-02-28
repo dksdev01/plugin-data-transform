@@ -15,12 +15,12 @@
         "source": "https://github.com/aleksip/plugin-data-transform/releases"
     },
     "autoload": {
-        "psr-0": {
-            "aleksip\\DataTransformPlugin\\": "src/",
-            "Drupal\\Component\\Render\\": "src/",
-            "Drupal\\Component\\Utility\\": "src/",
-            "Drupal\\Core\\": "src/",
-            "Drupal\\Core\\Template\\": "src/"
+        "psr-4": {
+            "aleksip\\DataTransformPlugin\\": "src/aleksip/DataTransformPlugin/",
+            "Drupal\\Component\\Render\\": "src/Drupal/Component/Render/",
+            "Drupal\\Component\\Utility\\": "src/Drupal/Component/Utility/",
+            "Drupal\\Core\\": "src/Drupal/Core/",
+            "Drupal\\Core\\Template\\": "src/Drupal/Core/Template/"
         }
     },
     "require": {
